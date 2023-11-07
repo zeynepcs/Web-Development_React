@@ -1,0 +1,81 @@
+/* .home styles */
+.home {
+    height: calc(100vh - 4rem);
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* .homeContent styles */
+  .homeContent {
+    height: 50vh;
+    width: 80vw; 
+    padding: 1rem; 
+    font-size: 2rem; 
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* .name styles */
+  .name {
+    font-size: 1.2rem; 
+    font-weight: 200;
+    color: rgb(243, 243, 249);
+  }
+  
+  /* .brief and .detail styles */
+  .brief,
+  .detail {
+    font-size: 1.25rem; 
+    font-weight: 50;
+    letter-spacing: 1px;
+  }
+  
+  .brief {
+    color: rgb(238, 235, 240);
+  }
+  
+  .detail {
+    color: rgb(244, 242, 245);
+  }
+  
+  /* .homebutton styles */
+  .homebutton {
+    background: rgb(181, 202, 200);
+    margin: 0.5rem 0;
+    height: 2.5rem;
+    font-size: 1.2rem; 
+    font-weight: 100;
+    color: blueviolet;
+    max-width: 10rem;
+    width: 100%;
+  }
+  
+  /* .img styles */
+  .img {
+    position: absolute;
+    top: 6rem; 
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 80vh;
+
+  }
+  
+  /* Media query for screens smaller than 390px  */
+  @media screen and (max-width: 390px) {
+    .homeContent {
+      width: 90vw; 
+    }
+  
+    .img {
+      top: 5rem; 
+      height: 20vh; 
+    }
+  }
+  

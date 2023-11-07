@@ -1,0 +1,53 @@
+/* Add your existing styles here */
+
+.contact {
+    padding: 0;
+    overflow: hidden;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+
+    border-radius: 8px;
+ 
+    text-align: center;
+  }
+  
+  .imgproject {
+    border-radius: 50%;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-details {
+    text-align: left;
+  }
+  
+  .text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .link{
+    margin-top: 20px;
+    padding: 20px;
+    color: #f3eff5;
+    font-size: 16px;
+  }
+
+ 

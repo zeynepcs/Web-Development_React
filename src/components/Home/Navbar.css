@@ -1,0 +1,39 @@
+/* .navbarmenu styles */
+.navbarmenu {
+    width: 100vw;
+    padding: 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    z-index: 3;
+  }
+  
+  /* .menuitem styles */
+  .menuitem {
+    margin: 0.5rem; 
+    cursor: pointer;
+  }
+  
+  .menuitem:hover {
+    color: aquamarine;
+    padding-bottom: 0.5rem; 
+    border-bottom: 2px solid aquamarine; 
+  }
+  
+  /* .contactbutton styles */
+  .contactbutton {
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem; 
+    border-radius: 1.5rem; 
+  }
+  
+  /* .menuhead styles */
+  .menuhead {
+    margin: 0.5rem; 
+  }
+  
