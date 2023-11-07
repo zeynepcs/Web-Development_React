@@ -15,19 +15,14 @@ const Navbar = () => {
       <div>
         <h1 className='menuhead'>Zeynep Can Sakci</h1>
       </div>
-      <button className='contactbutton'>
-          <Link to="home" className='menuitem' smooth={true} duration={500} offset={-50}>Home </Link>
+      <div className='navbarButton'>
+          <Link to="home" className='menuitem'  smooth={true} duration={500} offset={-50}>Home </Link>
           <Link to="skills" className='menuitem' smooth={true} duration={500} offset={-100}>Skills </Link>
           <Link to="projects" className='menuitem' smooth={true} duration={500} offset={-350}>Projects </Link>  
-      <Link to="contact" className='menuitem' smooth={true} duration={500} offset={100}>Contact </Link>
-      </button>
+          <Link to="contact" className='menuitem' smooth={true} duration={500} offset={100}>Contact </Link>
       </div>
-     
-    
-     
-      
-      
-     
+      </div>
+ 
     </nav>
 
   );
