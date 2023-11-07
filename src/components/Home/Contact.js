@@ -29,7 +29,7 @@ const Contact = () => {
       <div className="contact-links">
       
 
-      <a href="mailto:cann.zeynep@gmail.com" className="link" target="_blank">
+      <a href="mailto:" className="link" target="_blank">
         Mail <FaMailBulk size={40} />
            
      
