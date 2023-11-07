@@ -19,29 +19,29 @@ const Skills = () => {
   
       <ul>
         <li>
-          <span class="skill-name">Java, Bash, Git, UML, Spring, Maven, Rest API, CORS, JSON </span>
-          <div class="skill-bar" data-level="80"></div>
+           <span className="skill-name">Java, Bash, Git, UML, Spring, Maven, Rest API, CORS, JSON </span>
+          <div className="skill-bar" data-level="80"></div>
         </li>
         <li>
-          <span class="skill-name"> Postman, Docker, DevOps, CI/CD, Jenkins, SQL, MySQL, NoSQL</span>
-          <div class="skill-bar" data-level="90"></div>
+          <span className="skill-name"> Postman, Docker, DevOps, CI/CD, Jenkins, SQL, MySQL, NoSQL</span>
+          <div className="skill-bar" data-level="90"></div>
         </li>
         <li>
-          <span class="skill-name">SaaS, PaaS, IaaS, Terraform, Cloud Formation, Ansible, CLI, Amazon Web Services</span>
-          <div class="skill-bar" data-level="75"></div>
+          <span className="skill-name">SaaS, PaaS, IaaS, Terraform, Cloud Formation, Ansible, CLI, Amazon Web Services</span>
+          <div className="skill-bar" data-level="75"></div>
         </li>
 
         <li>
-          <span class="skill-name">AWS IAM, ID-WSF, Amazon Cognito, OpenID, Encryption, AWS Trusted Advisor, Elastic Load Balancing</span>
-          <div class="skill-bar" data-level="80"></div>
+          <span className="skill-name">AWS IAM, ID-WSF, Amazon Cognito, OpenID, Encryption, AWS Trusted Advisor, Elastic Load Balancing</span>
+          <div className="skill-bar" data-level="80"></div>
         </li>
         <li>
-          <span class="skill-name">Agile, TDD, Scrum, ECR, ECS, OpsWork, SWF, AWS CodeStar, CodeCommit, CodeBuild, CodeDeploy,  AWS Lambda,  Amazon S3 </span>
-          <div class="skill-bar" data-level="90"></div>
+          <span className="skill-name">Agile, TDD, Scrum, ECR, ECS, OpsWork, SWF, AWS CodeStar, CodeCommit, CodeBuild, CodeDeploy,  AWS Lambda,  Amazon S3 </span>
+          <div className="skill-bar" data-level="90"></div>
         </li>
         <li>
-          <span class="skill-name">HTML5, CSS, JavaScript, React </span>
-          <div class="skill-bar" data-level="75"></div>
+          <span className="skill-name">HTML5, CSS, JavaScript, React </span>
+          <div className="skill-bar" data-level="75"></div>
         </li>
 
        
